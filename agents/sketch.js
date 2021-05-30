@@ -17,6 +17,10 @@
 
   // p5js自动循环调用
   function draw() {
+      var canvas = createCanvas(window.innerWidth, window.innerHeight);
+     // canvas.parent('sketch-holder');
+
+
       background('#34495e');
       // p.customUpdate();
       // p.customDraw();
