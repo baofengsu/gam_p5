@@ -4,7 +4,8 @@
   // p5js自动调用1次
   function setup() {
       // 创建画布
-      createCanvas(window.innerWidth, window.innerHeight);
+      var canvas = createCanvas(window.innerWidth, window.innerHeight);
+      canvas.parent('sketch-holder');
 
       // p = new Particle();
       const particlesLength = Math.floor(window.innerWidth / 10);// 粒子数量
